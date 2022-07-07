@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c $CFILE -o head
+gcc -E $CFILE -o head
