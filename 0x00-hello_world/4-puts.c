@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int put(const char *str)
+int put()
 {
   puts("Programming is like building a multilingual puzzle");
   return 0;
@@ -9,7 +9,8 @@ int put(const char *str)
 
 int main ()
 {
-  char *str;
+  char *str = NULL;
+
   put(str);
   return 0;
 }
